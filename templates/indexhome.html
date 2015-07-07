@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<!--<div class="panel panel-default">-->
+    <!--<div class="panel-heading">-->
+        <!--<h2 class="panel-title">-->
+            <!--<a href="#collapse-764" data-parent="#collapsible-" class="accordion-toggle" data-toggle="collapse"> <i class="fa fa-chevron-down"></i>object 1</a>-->
+        <!--</h2>-->
+    <!--</div>-->
+    <!--<div id="collapse-764" class="panel-collapse collapse">-->
+        <!--<div class="panel-body">-->
+            <!--<div class="panel panel-default">-->
+                <!--<div class="panel-heading">-->
+                    <!--<h2 class="panel-title">-->
+                        <!--<a href="#collapse-765" data-parent="#collapsible-764" class="accordion-toggle" data-toggle="collapse"> <i class="fa fa-chevron-down"></i>Headline 1.1</a>-->
+                    <!--</h2>-->
+                <!--</div>-->
+                <!--<div id="collapse-765" class="panel-collapse collapse">-->
+                    <!--<div class="panel-body">-->
+                        <!--<p>Text....</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="panel panel-default">-->
+                <!--<div class="panel-heading">-->
+                    <!--<h2 class="panel-title">-->
+                        <!--<a href="#collapse-766" data-parent="#collapsible-764" class="accordion-toggle" data-toggle="collapse">Headline 1.2</a>-->
+                    <!--</h2>-->
+                <!--</div>-->
+                <!--<div id="collapse-766" class="panel-collapse collapse">-->
+                    <!--<div class="panel-body">-->
+                        <!--<p>Text....</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+{{#obj}}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">
+
+            <a href="#collapse-767" data-parent="#collapsible-" class="accordion-toggle" data-toggle="collapse">{{_id}}</a>
+        </h2>
+    </div>
+    <div id="collapse-767" class="panel-collapse collapse">
+        <div class="panel-body">
+            <p>{{}} <input type="text" placeholder="{{value}}"/></p>
+            <p>key <input type="text" placeholder="value"/></p>
+            <p>key <input type="text" placeholder="value"/></p>
+        </div>
+    </div>
+</div>
+{{/obj}}
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
